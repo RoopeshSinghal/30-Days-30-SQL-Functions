@@ -23,14 +23,13 @@ WHERE department = 'Electronics';
 
 ### Problem Statement
 
-Question: 2 You have an employees table with the following columns:
+You have an employees table with the following columns:
 
  employee_id (integer)
  department (varchar)
  salary (int)
  
-Write a query to find the average salary of each department where the average salary is greater than 50,000.
-Sort the results in ascending order of the department name.
+Write a query to find the average salary of each department where the average salary is greater than 50,000.Sort the results in ascending order of the department name.
 
 ### Solution Query
 

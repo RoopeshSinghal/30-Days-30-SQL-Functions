@@ -42,14 +42,6 @@ Write a query to:
 1. Remove leading and trailing underscores (`_`) and spaces from the `product_name` column using only the `TRIM()` function.  
 2. Display the cleaned `product_name` along with `product_id` and `price`.
 
-Sample Input (products table):  
-| product_id | product_name        | price    |  
-|------------|---------------------|----------|  
-| 1          | __Laptop__          | 800.00   |  
-| 2          |  Smartphone_        | 600.00   |  
-| 3          | __Tablet            | 300.00   |  
-| 4          |  Keyboard           | 50.00    |  
-
 ### Schema setup
 
 ```sql
@@ -71,12 +63,16 @@ INSERT INTO products (product_id, product_name, price) VALUES
 
 ### Expected output
 
-| product_id | cleaned_product_name  | price    |  
-|------------|-----------------------|----------|  
-| 1          | Laptop                | 800.00   |  
-| 2          | Smartphone            | 600.00   |  
-| 3          | Tablet                | 300.00   |  
-| 4          | Keyboard              | 50.00    |  
+| product_id | cleaned_product_name | price |
+|------------|-----------------------|-------|
+| 1          | Laptop               | 800   |
+| 2          | Smartphone           | 600   |
+| 3          | Tablet               | 300   |
+| 4          | Keyboard             | 50    |
+| 5          | Monitor              | 250   |
+| 6          | Headphones           | 120   |
+| 7          | Mouse                | 30    |
+
 
 ### Solution Query
 

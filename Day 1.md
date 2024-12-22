@@ -2,14 +2,14 @@
 
 The `COUNT()` function in SQL returns the number of records returned by a query. It is often used to count rows or specific values within a dataset.
 
-### Syntax:
+# Syntax:
 ```sql
 SELECT COUNT(column_name)
 FROM table_name
 WHERE condition;
 ```
 
-Example 1:
+# Example:
 Count all employees in the Sales department
 
 ```sql
@@ -19,7 +19,8 @@ WHERE department = 'Sales';
 ```
 
 
-Question: How would you count the number of employees who are not in the "Marketing" department?
+# Question:
+How would you count the number of employees who are not in the "Marketing" department?
 
 ```sql
 SELECT COUNT(*)

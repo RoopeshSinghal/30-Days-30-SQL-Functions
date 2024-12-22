@@ -7,9 +7,9 @@ The SQL `SUBSTRING()` function extracts a part of a string based on a specified 
 ```sql
 SELECT SUBSTRING(string, start_position, length); 
 ```
-• `string`: The input string from which to extract. 
-• `start_position`: The position (1-based index) where extraction starts. 
-• `length` (optional): The number of characters to extract. If omitted, the function returns all characters from the starting position to the end. 
+• `string`: The input string from which to extract.
+<br>• `start_position`: The position (1-based index) where extraction starts. 
+<br>• `length` (optional): The number of characters to extract. If omitted, the function returns all characters from the starting position to the end. 
 
 ### Example:
 

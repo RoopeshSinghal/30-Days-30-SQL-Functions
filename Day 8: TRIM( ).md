@@ -7,6 +7,7 @@ The SQL `TRIM()` function removes unwanted spaces or specified characters from t
 ```sql
 SELECT TRIM([{BOTH | LEADING | TRAILING} [remstr] FROM] str) ; 
 ```
+
 • BOTH | LEADING | TRAILING : LEADING, TRAILING, or BOTH option to explicitly instruct the TRIM() function to remove leading, trailing, or both leading and trailing unwanted characters from a string .By default, the TRIM() function uses the BOTH option.
 <br>• removed_str : It is a string which we want to remove. If not given, spaces will be removed.
 <br>• str : It identifies the string from which we want to remove removed_str.
@@ -14,9 +15,11 @@ SELECT TRIM([{BOTH | LEADING | TRAILING} [remstr] FROM] str) ;
 ### Example:
 
 The following example demonstrates how to remove extra spaces from a product name.
+
 ```sql
 SELECT TRIM(BOTH ' ' FROM ' Apple iPhone 15 ') AS CleanedName; 
 ```
+
 | CleanedName     |
 |-----------------|
 | Apple iPhone 15 |

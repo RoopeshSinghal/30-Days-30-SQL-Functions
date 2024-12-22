@@ -12,7 +12,7 @@ Welcome to my **30 Days 30 SQL Functions** challenge! Each day, I explore a new 
 - [Day 7: SUBSTRING()](Day%207%3A%20SUBSTRING(%20).md)
 - [Day 8: TRIM()](Day%208%3A%20TRIM(%20).md)
 - [Day 9: REPLACE()](Day%209%3A%20REPLACE(%20).md)
--
+- [Day 10: SUBSTRING_INDEX()](Day%2010%3A%20SUBSTRING_INDEX(%20).md)
 -
 -
 -

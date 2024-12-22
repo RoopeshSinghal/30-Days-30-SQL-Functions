@@ -10,7 +10,7 @@ Welcome to my **30 Days 30 SQL Functions** challenge! Each day, I explore a new 
 - [Day 5: CONCAT()](Day%205%3A%20CONCAT(%20).md)
 - [Day 6: CAST()](Day%206%3A%20CAST(%20).md)
 - [Day 7: SUBSTRING()](Day%207%3A%20SUBSTRING(%20).md)
--
+- [Day 8: TRIM()](Day%208%3A%20TRIM(%20).md)
 -
 -
 -

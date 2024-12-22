@@ -1,6 +1,6 @@
 ## Day 1: COUNT()
 
-The `COUNT()` function in SQL returns the number of records returned by a query. It is often used to count rows or specific values within a dataset.
+The SQL `COUNT()` function returns the number of records returned by a query. It is often used to count rows or specific values within a dataset.
 
 # Syntax:
 ```sql

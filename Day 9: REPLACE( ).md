@@ -14,7 +14,7 @@ SELECT REPLACE(string, from_string, new_string) ;
 
 ### Example:
 
-The following example demonstrates how to replace underscores (`_`) with spaces (` `) in product names: 
+The following example demonstrates how to replace underscores (`_`) with spaces (` `) in product names.
 
 ```sql
 SELECT REPLACE('Smartphone_Pro_Max', '_', ' ') AS UpdatedName;

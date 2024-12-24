@@ -70,23 +70,23 @@ CREATE TABLE enrollments (
 
 INSERT INTO enrollments (student_id, student_name, course_id, course_name) VALUES
 (1, 'Alice Johnson', 101, 'Math 101'),
-(1, 'Alice Johnson', 102, 'Physics 101'),
-(1, 'Alice Johnson', 103, 'Chemistry 101'),
-(2, 'Bob Smith', 104, 'English 101'),
-(2, 'Bob Smith', 105, 'History 101'),
-(2, 'Bob Smith', 106, 'Art 101'),
-(2, 'Bob Smith', 107, 'Math 102'),
-(3, 'Charlie Brown', 108, 'Biology 101'),
-(3, 'Charlie Brown', 109, 'Computer Science 101'),
-(4, 'Diana Prince', 110, 'Psychology 101');
+(1, 'Alice Johnson', 102, 'Physics 102'),
+(1, 'Alice Johnson', 103, 'Chemistry 103'),
+(2, 'Bob Smith', 104, 'English 104'),
+(2, 'Bob Smith', 105, 'History 105'),
+(2, 'Bob Smith', 106, 'Art 106'),
+(2, 'Bob Smith', 107, 'Math 101'),
+(3, 'Charlie Brown', 108, 'Biology 107'),
+(3, 'Charlie Brown', 109, 'Computer Science 108'),
+(4, 'Diana Prince', 110, 'Psychology 109');
 ```
 
 ### Expected output
 
 | student_name   | courses_list                                | total_courses |  
 |----------------|---------------------------------------------|---------------|  
-| Alice Johnson  | Math 101; Physics 101; Chemistry 101        | 3             |  
-| Bob Smith      | English 101; History 101; Art 101; Math 102 | 4             | 
+| Alice Johnson  | Math 101; Physics 102; Chemistry 103        | 3             |  
+| Bob Smith      | English 104; History 105; Art 106; Math 101 | 4             |  
 
 ### Solution Query
 

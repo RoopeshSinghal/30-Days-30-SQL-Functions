@@ -16,6 +16,6 @@ Welcome to my **30 Days 30 SQL Functions** challenge! Each day, I explore a new 
 - [Day 11: CHAR_LENGTH()](Day%2011%3A%20CHAR_LENGTH(%20).md)
 - [Day 12: LENGTH()](Day%2012%3A%20LENGTH(%20).md)
 - [Day 13: LEFT() AND RIGHT()](Day%2013%3A%20LEFT()%20AND%20RIGHT().md)
--
+- [Day 14: UPPER() AND LOWER()](Day%2014%3A%20UPPER()%20AND%20LOWER()%20.md)
 -
 -

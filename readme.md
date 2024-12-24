@@ -18,4 +18,4 @@ Welcome to my **30 Days 30 SQL Functions** challenge! Each day, I explore a new 
 - [Day 13: LEFT() AND RIGHT()](Day%2013%3A%20LEFT()%20AND%20RIGHT().md)
 - [Day 14: UPPER() AND LOWER()](Day%2014%3A%20UPPER()%20AND%20LOWER()%20.md)
 - [Day 15: REGEXP AND NOT REGEXP](Day%2015%3A%20REGEXP%20AND%20NOT%20REGEXP.md)
-- [Day 16: GROUP_CONCAT()](Day%2016:%20GROUP_CONCAT().md)
+- [Day 16: GROUP_CONCAT()](Day%2016%3A%20GROUP_CONCAT().md)

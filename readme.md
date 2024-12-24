@@ -17,5 +17,5 @@ Welcome to my **30 Days 30 SQL Functions** challenge! Each day, I explore a new 
 - [Day 12: LENGTH()](Day%2012%3A%20LENGTH(%20).md)
 - [Day 13: LEFT() AND RIGHT()](Day%2013%3A%20LEFT()%20AND%20RIGHT().md)
 - [Day 14: UPPER() AND LOWER()](Day%2014%3A%20UPPER()%20AND%20LOWER()%20.md)
--
+- [Day 15: REGEXP AND NOT REGEXP](Day%2015%3A%20REGEXP%20AND%20NOT%20REGEXP.md)
 -

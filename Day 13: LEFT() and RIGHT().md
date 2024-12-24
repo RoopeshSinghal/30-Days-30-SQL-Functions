@@ -82,6 +82,7 @@ INSERT INTO event_tickets (ticket_id, ticket_title, ticket_code, ticket_status) 
 (6, 'Ticket Cancellation Problem', 'LOWNA2001', 'Resolved'),
 (7, 'Payment Processing Delay', 'MEDAP3400', 'Closed'),
 (8, 'Invalid QR Code Scanned', 'HIGNA6100', 'Resolved');
+```
 
 ### Expected output
 

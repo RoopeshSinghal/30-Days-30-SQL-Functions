@@ -91,5 +91,11 @@ INSERT INTO enrollments (student_id, student_name, course_id, course_name) VALUE
 ### Solution Query
 
 ```sql
-Will be Added Tomorrow
+SELECT 
+    student_name,
+    GROUP_CONCAT(course_name SEPARATOR '; ') AS courses_list,
+    COUNT(course_id) AS total_courses
+FROM enrollments
+GROUP BY student_id, student_name
+HAVING total_courses >= 3;
 ```

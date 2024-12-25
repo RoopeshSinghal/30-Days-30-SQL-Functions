@@ -1,6 +1,6 @@
-## 30 Days 30 SQL Functions
+## 30 Days 30 SQL Functions 🛢️
 
-Welcome to my **30 Days 30 SQL Functions** challenge! Each day, I explore a new SQL function with explanations and examples.
+Welcome to my **30 Days 30 SQL Functions** challenge! Each day, I explore a new SQL function with explanations, examples, and practical insights. By the end of this challenge, you'll have a solid understanding of commonly used SQL functions and how to apply them in real-world scenarios.
 
 ## Progress
 - [Day 1: COUNT()](Day%201%3A%20COUNT().md)

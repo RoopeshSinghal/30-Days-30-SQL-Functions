@@ -8,13 +8,13 @@ SELECT DATE_FORMAT(date, format);
 ```
 • `date`: The date or datetime value to be formatted. 
 <br>• `format`: A string defining the format of the output. Common format specifiers include:
- ‣ `%Y`: Year (4 digits)
- ‣ `%m`: Month (2 digits)
- ‣ `%b`: Abbreviated month name
- ‣ `%d`: Day of the month (2 digits)
- ‣ `%H`: Hour (24-hour format)
- ‣ `%i`: Minutes
- ‣ `%s`: Seconds
+   - `%Y`: Year (4 digits)
+   - `%m`: Month (2 digits)
+   - `%b`: Abbreviated month name
+   - `%d`: Day of the month (2 digits)
+   - `%H`: Hour (24-hour format)
+   - `%i`: Minutes
+   - `%s`: Seconds
 
 ### Examples:
 

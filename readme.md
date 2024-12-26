@@ -20,3 +20,4 @@ Welcome to my **30 Days 30 SQL Functions** challenge! Each day, I explore a new 
 - [Day 15: REGEXP AND NOT REGEXP](Day%2015%3A%20REGEXP%20AND%20NOT%20REGEXP.md)
 - [Day 16: GROUP_CONCAT()](Day%2016%3A%20GROUP_CONCAT().md)
 - [Day 17: DATEDIFF()](Day%2017%3A%20DATEDIFF()%20.md)
+- [Day 18: DATE_FORMAT()](Day%2018:%20DATE_FORMAT().md)

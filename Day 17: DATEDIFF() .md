@@ -101,5 +101,15 @@ INSERT INTO employee_leaves (leave_id, employee_id, leave_start_date, leave_end_
 ### Solution Query
 
 ```sql
-Will be Added Tomorrow
+SELECT 
+    employee_id,
+    SUM(DATEDIFF(leave_end_date, leave_start_date) + 1) AS total_approved_days,
+    COUNT(leave_id) AS leave_count,
+    CASE 
+        WHEN SUM(DATEDIFF(leave_end_date, leave_start_date) + 1) > 10 THEN 'Exceeded'
+        ELSE 'Not Exceeded'
+    END AS Leave_limit
+FROM employee_leaves
+WHERE leave_status = 'Approved'
+GROUP BY employee_id;
 ```

@@ -5,8 +5,7 @@ The SQL `DATEDIFF()` function calculates the difference in days between two date
 ### Syntax:
 
 ```sql
-
-SELECT DATEDIFF(date1, date2) AS difference_in_days;; 
+SELECT DATEDIFF(date1, date2) AS difference_in_days; 
 ```
 
 • `date1`: The later date.  

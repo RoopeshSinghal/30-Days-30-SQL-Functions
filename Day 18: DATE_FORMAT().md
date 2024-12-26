@@ -7,7 +7,7 @@ The SQL `DATE_FORMAT()` function is used to format date or datetime values into 
 SELECT DATE_FORMAT(date, format); 
 ```
 • `date`: The date or datetime value to be formatted. 
-• `format`: A string defining the format of the output. Common format specifiers include:
+<br>• `format`: A string defining the format of the output. Common format specifiers include:
  ‣ `%Y`: Year (4 digits)
  ‣ `%m`: Month (2 digits)
  ‣ `%b`: Abbreviated month name

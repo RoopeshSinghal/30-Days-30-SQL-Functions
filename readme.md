@@ -21,3 +21,4 @@ Welcome to my **30 Days 30 SQL Functions** challenge! Each day, I explore a new 
 - [Day 16: GROUP_CONCAT()](Day%2016%3A%20GROUP_CONCAT().md)
 - [Day 17: DATEDIFF()](Day%2017%3A%20DATEDIFF()%20.md)
 - [Day 18: DATE_FORMAT()](Day%2018%3A%20DATE_FORMAT().md)
+- [Day 19: DATE_ADD() AND DATE_SUB()](Day%2019%3A%20DATE_ADD()%20AND%20DATE_SUB().md)

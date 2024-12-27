@@ -118,5 +118,13 @@ INSERT INTO bookings (booking_id, customer_name, check_in_date, check_out_date, 
 ### Solution Query
 
 ```sql
-Will Be Added Tomorrow
+SELECT 
+    booking_id,
+    customer_name,
+    DATE_FORMAT(check_in_date, '%D %M %Y') AS formatted_check_in,
+    DATE_FORMAT(check_out_date, '%D %M %Y') AS formatted_check_out,
+    DATEDIFF(check_out_date, check_in_date) AS nights_stayed,
+    DATE_FORMAT(check_out_date, '%m') - DATE_FORMAT(check_in_date, '%m') AS month_diff,
+    total_amount
+FROM bookings;
 ```

@@ -1,4 +1,4 @@
-## Day 19: DATE_ADD() and DATE_SUB()
+## Day 19: DATE_ADD() AND DATE_SUB()
 
 The SQL `DATE_ADD()` and `DATE_SUB()` functions allow you to add or subtract specific intervals (such as days, months, or years) to or from a date value. These functions are useful for handling future or past date calculations in your database queries.
 

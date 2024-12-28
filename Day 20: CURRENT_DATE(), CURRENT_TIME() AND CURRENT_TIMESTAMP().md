@@ -4,19 +4,23 @@ The MySQL functions CURRENT_DATE, CURRENT_TIME, and CURRENT_TIMESTAMP provide th
 
 ### Syntax:
 
+• CURRENT_DATE
+Returns the current date in YYYY-MM-DD format.
 ```sql
-SELECT DATE_FORMAT(date, format); 
+SELECT CURRENT_DATE();
 ```
-• `date`: The date or datetime value to be formatted.<br>
-• `format`: A string defining the format of the output.<br>
-  Common format specifiers include:
-   - `%Y`: Year (4 digits)
-   - `%m`: Month (2 digits)
-   - `%b`: Abbreviated month name
-   - `%d`: Day of the month (2 digits)
-   - `%H`: Hour (24-hour format)
-   - `%i`: Minutes
-   - `%s`: Seconds
+
+• CURRENT_TIME
+Returns the current time in HH:MM:SS format.
+```sql
+SELECT CURRENT_TIME();
+```
+
+• CURRENT_TIMESTAMP or NOW()
+Returns the current date and time in YYYY-MM-DD HH:MM:SS format.
+```sql
+SELECT CURRENT_TIMESTAMP()/ NOW();
+```
 
 ### Examples:
 

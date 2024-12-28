@@ -27,8 +27,9 @@ Getting a formatted year from the specified date 2020-11-23.
 SELECT DATE_FORMAT("2020-11-23", "%Y") AS formatted_year;
 ```
 Output:
-formatted_year
-2020
+| formatted_year |
+|----------------|
+| 2020           |
 
 Example 2:
 Getting a formatted month name from the specified date 2020-11-23.
@@ -36,8 +37,9 @@ Getting a formatted month name from the specified date 2020-11-23.
 SELECT DATE_FORMAT("2020-11-23", "%M") AS formatted_month;
 ```
 Output:
-formatted_month
-November
+| formatted_month |
+|-----------------|
+| November        |
 
 Example 3:
 Getting a day of the month from the specified date 2020-11-23.
@@ -45,8 +47,9 @@ Getting a day of the month from the specified date 2020-11-23.
 SELECT DATE_FORMAT("2020-11-23", "%D") AS formatted_day;
 ```
 Output:
-formatted_day
-23rd
+| formatted_day |
+|---------------|
+| 23rd          |
 
 Example 4:
 Getting the month, day, and year from the specified date 2020-11-23.
@@ -54,8 +57,9 @@ Getting the month, day, and year from the specified date 2020-11-23.
 SELECT DATE_FORMAT("2020-11-23", "%M %d %Y") AS formatted_date;
 ```
 Output:
-formatted_date
-November 23 2020 
+| formatted_date   |
+|------------------|
+| November 23 2020 |
 
 ### Question:
 

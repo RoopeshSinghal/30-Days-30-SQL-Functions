@@ -110,5 +110,16 @@ INSERT INTO Bookings (booking_id, room_type, booking_date, year) VALUES
 ### Solution Query
 
 ```sql
-Will be Added Tomorrow
+SELECT 
+    CASE 
+        WHEN booking_date BETWEEN DATE_SUB('2024-12-25', INTERVAL 14 DAY) AND DATE_SUB('2024-12-25', INTERVAL 1 DAY) 
+        THEN 'Before 14 Days of Christmas'
+        WHEN booking_date BETWEEN DATE('2024-12-25') AND DATE_ADD('2024-12-25', INTERVAL 7 DAY)
+        THEN 'Between Christmas & New Year' 
+        ELSE 'Other' 
+    END AS booking_period,
+    COUNT(booking_id) AS booking_count
+FROM Bookings
+GROUP BY booking_period
+ORDER BY booking_period;
 ```

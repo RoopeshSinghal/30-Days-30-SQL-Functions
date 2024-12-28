@@ -5,19 +5,19 @@ The MySQL functions CURRENT_DATE, CURRENT_TIME, and CURRENT_TIMESTAMP provide th
 ### Syntax:
 
 • CURRENT_DATE
-Returns the current date in YYYY-MM-DD format.
+<br>Returns the current date in YYYY-MM-DD format.
 ```sql
 SELECT CURRENT_DATE();
 ```
 
 • CURRENT_TIME
-Returns the current time in HH:MM:SS format.
+<br>Returns the current time in HH:MM:SS format.
 ```sql
 SELECT CURRENT_TIME();
 ```
 
 • CURRENT_TIMESTAMP or NOW()
-Returns the current date and time in YYYY-MM-DD HH:MM:SS format.
+<br>Returns the current date and time in YYYY-MM-DD HH:MM:SS format.
 ```sql
 SELECT CURRENT_TIMESTAMP()/ NOW();
 ```

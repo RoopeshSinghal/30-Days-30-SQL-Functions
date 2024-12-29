@@ -113,5 +113,11 @@ Note: The Expected Output can vary due to the change in time!!
 ### Solution Query
 
 ```sql
-Will Be Added Tomorrow
+SELECT 
+    order_id, 
+    order_date, 
+    CURRENT_TIMESTAMP AS 'current_time', 
+    TIMESTAMPDIFF(HOUR, order_date, CURRENT_TIMESTAMP) AS hours_since_order 
+FROM orders 
+WHERE order_status = 'Pending';
 ```

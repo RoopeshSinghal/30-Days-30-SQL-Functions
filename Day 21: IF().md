@@ -5,10 +5,8 @@ The SQL `IF()` function works like a conditional statement in Excel, allowing yo
 ### Syntax:
 
 ```sql
-SELECT DATE_ADD(date, INTERVAL value unit); 
-```
-
 SELECT IF(condition, value_if_true, value_if_false);
+```
 
  • condition – It is used to specify the condition to be evaluated.
  <br>• value_if_true – It is an optional parameter that is used to specify the value to be returned if the condition evaluates to be true.

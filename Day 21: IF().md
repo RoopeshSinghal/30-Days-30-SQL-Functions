@@ -96,5 +96,16 @@ INSERT INTO employees (employee_id, employee_name, base_salary, hours_worked) VA
 ### Solution Query
 
 ```sql
-Will Be Added Tomorrow
+SELECT  
+    employee_id,  
+    employee_name,  
+    hours_worked,  
+    base_salary,  
+    IF(hours_worked > 160, base_salary * 0.2,   
+       IF(hours_worked BETWEEN 120 AND 160, base_salary * 0.1, 0)) AS bonus,  
+    base_salary +  
+    IF(hours_worked > 160, base_salary * 0.2,   
+       IF(hours_worked BETWEEN 120 AND 160, base_salary * 0.1, 0)) AS total_salary  
+FROM employees  
+ORDER BY total_salary DESC;
 ```

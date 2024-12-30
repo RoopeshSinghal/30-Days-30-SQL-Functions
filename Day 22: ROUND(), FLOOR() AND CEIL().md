@@ -4,23 +4,23 @@ The SQL `ROUND()`, `FLOOR()`, and `CEIL()` functions are used to manipulate nume
 
 ### Syntax:
 
--ROUND()
+- ROUND()
 <br>Rounds a number to the nearest integer or to a specified decimal place
 
 ```sql
 SELECT ROUND(number, decimals); 
 ```
- • Number: refers to the number you want to round.
- <br>• Decimals: specify the number of decimal places to round to.
+  • Number: refers to the number you want to round.
+  <br>• Decimals: specify the number of decimal places to round to.
 
--FLOOR() 
+- FLOOR() 
 <br>Returns the largest integer less than or equal to the given number.
 
 ```sql
 SELECT FLOOR(number); 
 ```
 
--CEIL()
+- CEIL()
 <br>Returns the smallest integer greater than or equal to the given number.
 
 ```sql

@@ -131,5 +131,13 @@ Expected Output:
 ### Solution Query
 
 ```sql
-Will Be Added Tomorrow
+SELECT 
+    employee_id,
+    employee_name,
+    ROUND(base_salary * (tax_rate / 100), 2) AS tax_amount,
+    ROUND(base_salary - (base_salary * (tax_rate / 100)), 2) AS rounded_net_salary,
+    FLOOR(base_salary - (base_salary * (tax_rate / 100))) AS floored_net_salary,
+    CEIL(base_salary - (base_salary * (tax_rate / 100))) AS ceiled_net_salary
+FROM 
+    employee_salaries;
 ```

@@ -26,4 +26,5 @@ Welcome to my **30 Days 30 SQL Functions** challenge! Each day, I explore a new 
 - [Day 21: IF()](Day%2021%3A%20IF().md)
 - [Day 22: ROUND(), FLOOR() AND CEIL()](Day%2022%3A%20ROUND()%2C%20FLOOR()%20AND%20CEIL().md)
 - [Day 23: ABS()](Day%2023%3A%20ABS().md)
+- [Day 24: MOD()](Day%2024%3A%20MOD().md)
   

@@ -90,5 +90,13 @@ INSERT INTO financial_records (record_id, department, transaction_date, amount) 
 ### Solution Query
 
 ```sql
-Will Be Added Tomorrow
+SELECT 
+    department, 
+    SUM(ABS(amount)) AS total_absolute_amount 
+FROM 
+    financial_records 
+GROUP BY 
+    department 
+ORDER BY 
+    total_absolute_amount DESC;
 ```

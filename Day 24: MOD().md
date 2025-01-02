@@ -94,5 +94,10 @@ INSERT INTO orders (order_id, customer_name, order_date, total_amount) VALUES
 ### Solution Query
 
 ```sql
-Will Be Added Tomorrow
+SELECT 
+    order_group,
+    group_count,
+    CONCAT(
+           ROUND((group_count * 100.0 / (SELECT COUNT(*) FROM orders)), 2),'','%') AS group_percentage
+FROM grouped_orders;
 ```

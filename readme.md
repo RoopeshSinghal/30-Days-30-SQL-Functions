@@ -27,4 +27,5 @@ Welcome to my **30 Days 30 SQL Functions** challenge! Each day, I explore a new 
 - [Day 22: ROUND(), FLOOR() AND CEIL()](Day%2022%3A%20ROUND()%2C%20FLOOR()%20AND%20CEIL().md)
 - [Day 23: ABS()](Day%2023%3A%20ABS().md)
 - [Day 24: MOD()](Day%2024%3A%20MOD().md)
+- [Day 25: POWER()](Day%2025%3A%20POWER().md)
   

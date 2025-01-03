@@ -28,4 +28,5 @@ Welcome to my **30 Days 30 SQL Functions** challenge! Each day, I explore a new 
 - [Day 23: ABS()](Day%2023%3A%20ABS().md)
 - [Day 24: MOD()](Day%2024%3A%20MOD().md)
 - [Day 25: POWER()](Day%2025%3A%20POWER().md)
+- [Day 26: SQRT()](Day%2026%3A%20SQRT().md)
   

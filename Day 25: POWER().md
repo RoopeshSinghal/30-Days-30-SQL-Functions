@@ -102,5 +102,12 @@ INSERT INTO sales_data (product_id, product_name, current_revenue, annual_growth
 ### Solution Query
 
 ```sql
-Will Be Added Tomorrow
+SELECT  
+    product_id,  
+    product_name,  
+    current_revenue,  
+    annual_growth_rate,  
+    ROUND(current_revenue * POWER(1 + annual_growth_rate, 3)) AS projected_revenue  
+FROM  
+    sales_data;  
 ```

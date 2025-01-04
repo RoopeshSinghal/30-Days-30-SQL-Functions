@@ -67,6 +67,7 @@ Output:
 | 4           | HR         | 45000  | 2    | 2          | 2          |
 
 Explanation:
+
 RANK(): Assigns a rank to each row within the partition (department). If there are ties, the next rank is skipped. For example, in the IT department, employees with salaries of 60000 share the first rank (1), and the next employee gets rank 3.
 
 DENSE_RANK(): Similar to `RANK`, but it does not skip ranks for ties. In the IT department, employees with salaries of 60000 both get rank 1, and the next employee gets rank 2.

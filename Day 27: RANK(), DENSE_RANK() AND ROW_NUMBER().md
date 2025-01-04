@@ -25,8 +25,8 @@ This example demonstrates how these three ranking functions can be used to rank 
 Imagine a table named `Employee` with the following columns:
 
 • employee_id: Unique identifier for each employee
-• department: Department the employee belongs to
-• salary: Annual salary of the employee
+<br>• department: Department the employee belongs to
+<br>• salary: Annual salary of the employee
 
 We want to rank employees within each department based on their salary, using the three ranking functions: `RANK`, `DENSE_RANK`, and `ROW_NUMBER`.
 
@@ -42,6 +42,7 @@ Input:
 | 7           | Sales      | 65000  |
 | 8           | Sales      | 65000  |
 
+```sql
 SELECT
  employee_id,
  department,
@@ -51,6 +52,7 @@ SELECT
  ROW_NUMBER() OVER (PARTITION BY department ORDER BY salary DESC) AS row_number
 FROM
  Employee;
+```
 
 Output:
 | employee_id | department | salary | rank | dense_rank | row_number |

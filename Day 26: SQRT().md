@@ -101,5 +101,12 @@ INSERT INTO deliveries (delivery_id, agent_name, total_distance_km, total_time_h
 ### Solution Query
 
 ```sql
-Will Be Added Tomorrow
+SELECT  
+    delivery_id,  
+    agent_name,  
+    ROUND(SQRT(total_distance_km / total_time_hours), 2) AS efficiency_score,  
+    delivery_status  
+FROM deliveries  
+WHERE SQRT(total_distance_km / total_time_hours) > 2  
+ORDER BY efficiency_score DESC;  
 ```

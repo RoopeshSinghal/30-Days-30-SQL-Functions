@@ -114,7 +114,6 @@ INSERT INTO employee_salaries (employee_id, employee_name, base_salary, tax_rate
 
 ### Expected output
 
-Expected Output:
 | employee_id | employee_name  | tax_amount | rounded_net_salary | floored_net_salary | ceiled_net_salary |  
 |-------------|----------------|------------|--------------------|--------------------|-------------------|  
 | 1           | Alice Johnson  | 500.00     | 4500.00            | 4500               | 4500              |  

@@ -2,14 +2,11 @@
 
 These advanced window functions in SQL provide insights into the relative position and distribution of rows within a partition. They are particularly useful for percentiles, ranking, and data segmentation.
 
-1. PERCENT_RANK() 
-   Calculates the relative rank of a row as a percentage of the total number of rows in the partition.
+1. PERCENT_RANK(): Calculates the relative rank of a row as a percentage of the total number of rows in the partition.
 
-2. NTILE() 
-   Divides the dataset into a specified number of equal-sized groups and assigns a group number to each row.  
+2. NTILE(): Divides the dataset into a specified number of equal-sized groups and assigns a group number to each row.  
 
-3. CUME_DIST()  
-   Calculates the cumulative distribution of a row, showing the proportion of rows with values less than or equal to the current row.
+3. CUME_DIST(): Calculates the cumulative distribution of a row, showing the proportion of rows with values less than or equal to the current row.
 
 ### Syntax:
 

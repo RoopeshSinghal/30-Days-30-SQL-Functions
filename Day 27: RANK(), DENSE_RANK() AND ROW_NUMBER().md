@@ -2,14 +2,11 @@
 
 Ranking functions in SQL are essential for assigning a unique rank or order to rows based on specific criteria. These functions are used to rank rows within a partition of a dataset.
 
-1. RANK() 
- Assigns a rank to each row within a partition of a dataset. Duplicate values receive the same rank, but gaps appear in the sequence. 
+1. RANK(): Assigns a rank to each row within a partition of a dataset. Duplicate values receive the same rank, but gaps appear in the sequence. 
 
-2. DENSE_RANK() 
-Similar to `RANK()`, but without gaps in the ranking sequence. Duplicate values receive the same rank and no gaps appear. 
+2. DENSE_RANK(): Similar to `RANK()`, but without gaps in the ranking sequence. Duplicate values receive the same rank and no gaps appear. 
 
-3. ROW_NUMBER() 
-Assigns a unique sequential number to each row.
+3. ROW_NUMBER(): Assigns a unique sequential number to each row.
 
 ### Syntax:
 

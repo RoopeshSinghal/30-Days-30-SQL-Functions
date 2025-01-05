@@ -1,4 +1,4 @@
-## Day 28: PERCENT_RANK(), NTILE(), and CUME_DIST()
+## Day 28: PERCENT_RANK(), NTILE() AND CUME_DIST()
 
 These advanced window functions in SQL provide insights into the relative position and distribution of rows within a partition. They are particularly useful for percentiles, ranking, and data segmentation.
 

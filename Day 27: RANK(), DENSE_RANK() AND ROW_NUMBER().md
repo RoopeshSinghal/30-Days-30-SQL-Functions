@@ -144,5 +144,23 @@ INSERT INTO product_sales (category, product_name, total_sales) VALUES
 ### Solution Query
 
 ```sql
-Will Be Added Tommorrow
+WITH ranked_sales AS
+(SELECT
+    category,
+    product_name,
+    total_sales,
+    RANK() OVER(PARTITION BY category ORDER BY total_sales DESC) AS rnk,
+    DENSE_RANK() OVER(PARTITION BY category ORDER BY total_sales DESC) AS dense_rnk,
+    ROW_NUMBER() OVER(PARTITION BY category ORDER BY total_sales DESC) AS rn
+FROM product_sales)
+    
+SELECT
+    category,
+    product_name,
+    total_sales,
+    rnk,
+    dense_rnk,
+    rn
+FROM ranked_sales
+WHERE rnk <= 3;
 ```

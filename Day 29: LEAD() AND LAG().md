@@ -19,7 +19,7 @@ FROM tablename;
 The following example demonstrates the working of lead and lag function.
 
 Imagine a table Employee_Salary that records salary changes for employees over time.  
-
+Input:
 | employee_id | salary_date | salary |  
 |-------------|-------------|--------|  
 | 1           | 2023-01-01  | 50000  |  

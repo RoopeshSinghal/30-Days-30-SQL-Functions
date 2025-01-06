@@ -31,3 +31,4 @@ Welcome to my **30 Days 30 SQL Functions** challenge! Each day, I explore a new 
 - [Day 26: SQRT()](Day%2026%3A%20SQRT().md)
 - [Day 27: RANK(), DENSE_RANK() AND ROW_NUMBER()](Day%2027%3A%20RANK()%2C%20DENSE_RANK()%20AND%20ROW_NUMBER().md)
 - [Day 28: PERCENT_RANK(), NTILE() AND CUME_DIST()](Day%2028%3A%20PERCENT_RANK()%2C%20NTILE()%20AND%20CUME_DIST().md)
+- [Day 29: LEAD() AND LAG()](Day%2029:%20LEAD()%20AND%20LAG().md)

@@ -11,7 +11,7 @@ The `LEAD()` and `LAG()` functions in SQL are used for accessing data from subse
 ```sql
 SELECT
   LEAD / LAG(column_name, offset, default_value) OVER (PARTITION BY column_name ORDER BY column_name)
-FROM tablename
+FROM tablename;
 ```
 
 ### Example:

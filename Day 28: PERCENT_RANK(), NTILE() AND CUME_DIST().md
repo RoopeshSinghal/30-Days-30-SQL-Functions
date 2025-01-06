@@ -144,5 +144,13 @@ INSERT INTO Sales (sale_id, region, sales_amount) VALUES
 ### Solution Query
 
 ```sql
-Will Be Added Tommorrow
+SELECT
+   sale_id,
+   region,
+   sales_amount,
+   NTILE(4) OVER(PARTITION BY region ORDER BY sales_amount) AS quartile,
+   ROUND(PERCENT_RANK() OVER(PARTITION BY region ORDER BY sales_amount),2) relative_rank,
+   CUME_DIST() OVER(PARTITION BY region ORDER BY sales_amount) cum_dist
+FROM Sales
+ORDER BY sale_id;
 ```

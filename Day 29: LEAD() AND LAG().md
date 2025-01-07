@@ -124,5 +124,13 @@ INSERT INTO Game_Sales (game_name, sales_month, sales_units) VALUES
 ### Solution Query
 
 ```sql
-Will Be Added Tomorrow
+SELECT  
+    game_name,  
+    sales_month,  
+    sales_units,  
+    LAG(sales_units) OVER (PARTITION BY game_name ORDER BY sales_month) AS previous_sales,  
+    ROUND(((sales_units - LAG(sales_units) OVER (PARTITION BY game_name ORDER BY sales_month)) /  
+           LAG(sales_units) OVER (PARTITION BY game_name ORDER BY sales_month)) * 100, 2) AS percentage_change
+FROM
+Game_Sales;
 ```

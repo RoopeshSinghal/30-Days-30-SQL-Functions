@@ -30,7 +30,7 @@ Imagine a table named `Product_Sales` with the following columns:
 
 Input:  
 | category    | product_name | sales_month | sales_units |  
-|--------- ---|--------------|-------------|-------------|  
+|-------------|--------------|-------------|-------------|  
 | Electronics | Laptop       | 2024-01-01  | 100         |  
 | Electronics | Laptop       | 2024-02-01  | 150         |  
 | Electronics | Laptop       | 2024-03-01  | 120         |  
@@ -53,7 +53,7 @@ FROM
 
 Output:  
 | category    | product_name | sales_month | sales_units | first_sales | last_sales |  
-|--------- ---|--------------|-------------|-------------|-------------|------------|  
+|-------------|--------------|-------------|-------------|-------------|------------|  
 | Electronics | Laptop       | 2024-01-01  | 100         | 100         | 120        |  
 | Electronics | Laptop       | 2024-02-01  | 150         | 100         | 120        |  
 | Electronics | Laptop       | 2024-03-01  | 120         | 100         | 120        |  

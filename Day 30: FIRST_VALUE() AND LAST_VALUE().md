@@ -2,11 +2,9 @@
 
 The FIRST_VALUE() and LAST_VALUE() window functions are used to retrieve the first and last values in a result set or within a partitioned window. These functions are beneficial for analyzing data trends and identifying starting and ending points.
 
-1. FIRST_VALUE():
-Returns the first value in a partition or result set based on the specified ordering.
+1. FIRST_VALUE(): Returns the first value in a partition or result set based on the specified ordering.
 
-2. LAST_VALUE():  
-Returns the last value in a partition or result set based on the specified ordering.
+2. LAST_VALUE(): Returns the last value in a partition or result set based on the specified ordering.
 
 ### Syntax:
 
